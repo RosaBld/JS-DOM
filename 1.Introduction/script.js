@@ -1,9 +1,11 @@
+/*1*/
 console.log(document.title);
 
+/*2*/
 document.title="Modifying the DOM";
 console.log(document.title);
 
-
+/*3*/
 document.body.style.backgroundColor="#FF69B4";
 
 function random_bg_color() {
@@ -18,6 +20,7 @@ function random_bg_color() {
 
 random_bg_color();
 
+/*4*/
 const body=document.body;
 const bodyChildren=body.children;
 for (const child of bodyChildren) {
