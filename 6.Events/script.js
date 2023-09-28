@@ -26,7 +26,7 @@ for (let actionSquare of actionSquares) {
 
 const body=document.querySelector('body');
 const changeBackground=(e)=>{
-    if (e.keycode=32) {
+    if (e.keyCode===32) {
         body.style.background=`rgba(${Math.random()*255},${Math.random()*255},${Math.random()*255})`
         const list=document.querySelector('ul')
         const li=document.createElement('li')
@@ -34,15 +34,23 @@ const changeBackground=(e)=>{
         list.appendChild(li)
     }
 }
-body.addEventListener('keydown', changeBackground)
+body.addEventListener('keydown', changeBackground);
 
-// const list=document.querySelector('ul')
-// const li=document.querySelector('li')
-// const deleteActionLog=(e)=>{
-//     if (e.keycode=76) {
-//         list.removeChild(list.lastChild)
-//     }
-// }
-// body.addEventListener('keydown', deleteActionLog)
+const list=document.querySelector('ul')
+const li=document.querySelector('li')
+const deleteActionLog=(e)=>{
+    if (e.keyCode===76) {
+        list.removeChild(list.lastChild)
+    }
+}
+body.addEventListener('keydown', deleteActionLog);
 
-
+const deleteAllSquare = (e) => {
+  if (e.keyCode===83) {
+    const displayedsquares=document.querySelectorAll('.displayedsquare')
+    for (let displayedsquare of displayedsquares) {
+      displayedsquare.remove()
+    }
+  }
+}
+body.addEventListener('keydown', deleteAllSquare);
