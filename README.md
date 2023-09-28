@@ -32,7 +32,7 @@ Here are the instructions;
 5. Navigate: 
 
     > Modify the script.js, do not create any new nodes!
-
+    >
     > - Select the last child of the `<ol>` tag and put it at the beginning of the list
     > - Move the `<h2>` of the third section in the second one and vice-versa
     > - Delete the last section from the DOM, we don't need it anyways
@@ -54,7 +54,7 @@ Here are the instructions;
 8. Forms:
 
    > As always you should NOT edit the index.html, modify the script.js file :
-
+   >
    > - Add a `keyup` listener on the first input field, so that once you type a letter in this field, it goes into the `<span id="display-firstname">`. The content of the field and the span should always remain the same.
    > - Add a `keyup` listener on the second input (the number input), so that if the age is below 18 the content of the section `a-hard-truth` remains hidden, otherwise show them this hard to swallow fact.
    > - Well this is a common one. Add a `keyup` listener on both fields and show a visual hint (for instance turn the field red) if the password is too short (less than 6 characters) or if the password and its confirmation do not match.
