@@ -1,0 +1,18 @@
+.game {
+  height: 400px;
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
+.game .hole {
+  margin: 25px;
+  height: 50px;
+  width: 50px;
+  transition: 0.3s;
+  background: blue;
+  border-radius: 50px;
+}
+.game .hole:hover {
+  transform: scale(1.5);
+}/*# sourceMappingURL=style.css.map */

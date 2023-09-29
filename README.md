@@ -27,7 +27,7 @@ Here are the instructions;
 
 4. TheCollection:
 
-    Come check [this](https://github.com/RosaBld/TheCollection) and admire [here](https://magical-sopapillas-4b0f55.netlify.app/)! 
+   Solo Project! Come check [this](https://github.com/RosaBld/TheCollection) and admire [here](https://magical-sopapillas-4b0f55.netlify.app/)! 
 
 5. Navigate: 
 
@@ -59,6 +59,28 @@ Here are the instructions;
    > - Add a `keyup` listener on the second input (the number input), so that if the age is below 18 the content of the section `a-hard-truth` remains hidden, otherwise show them this hard to swallow fact.
    > - Well this is a common one. Add a `keyup` listener on both fields and show a visual hint (for instance turn the field red) if the password is too short (less than 6 characters) or if the password and its confirmation do not match.
    > - Finally, use a `change` listener on the `<select>` field to toggle a dark mode on the whole page. For ease of use, we'll say that the dark mode is just turning the background black and the text white.
+
+9. Time Out and Intervals:
+
+   > Exercise 1
+   >
+   > Write a function that mimics the behaviour of a typewriter.
+   >
+   > Using `setInterval` display the word `Keller` one character at a time (one letter per second). Once the word is written on the screen clear the interval.
+
+   >Exercise 2
+   >
+   >Write a function that displays every second that has passed on the page since it was opened. The display should be refreshed every second. If 60 seconds are elapsed, write "a minute has passed", then "2 minutes have passed" (for 120 seconds and more), etc.
+
+   > Exercise 3 - Whack-A-Mole (bonus)
+   > 
+   > Whack-A-Mole
+   >
+   > Let's create a simple Whack-A-Mole clone.
+   >
+   > The goal of this traditional game is to prevent "moles" from coming out the ground with a hammer. Every second a new "mole" appears and you'll have to click on it to gently tell her to go back into the soil where it belongs. The game doesn't have to picture moles, or animal cruelty you can simply display circle `<div>`s to begin with. Everytime you click on a mole, your score increases.
+   > 
+   > If you'd like to spice things up, you can create an increasing difficulty by reducing the timeframe in which the mole appears.
 
 
 Enjoy checking what I've done so far! o/
