@@ -62,25 +62,29 @@ Here are the instructions;
 
 9. Time Out and Intervals:
 
-   > Exercise 1
-   >
-   > Write a function that mimics the behaviour of a typewriter.
-   >
-   > Using `setInterval` display the word `Keller` one character at a time (one letter per second). Once the word is written on the screen clear the interval.
+   > - Write a function that mimics the behaviour of a typewriter.
+   > - Using `setInterval` display the word `Keller` one character at a time (one letter per second). Once the word is written on the screen clear the interval.
+   > - Write a function that displays every second that has passed on the page since it was opened. The display should be refreshed every second. If 60 seconds are elapsed, write "a minute has passed", then "2 minutes have passed" (for 120 seconds and more), etc.
+ 
+9b. Whack-A-Mole
 
-   >Exercise 2
-   >
-   >Write a function that displays every second that has passed on the page since it was opened. The display should be refreshed every second. If 60 seconds are elapsed, write "a minute has passed", then "2 minutes have passed" (for 120 seconds and more), etc.
-
-   > Exercise 3 - Whack-A-Mole (bonus)
-   > 
-   > Whack-A-Mole
-   >
-   > Let's create a simple Whack-A-Mole clone.
-   >
    > The goal of this traditional game is to prevent "moles" from coming out the ground with a hammer. Every second a new "mole" appears and you'll have to click on it to gently tell her to go back into the soil where it belongs. The game doesn't have to picture moles, or animal cruelty you can simply display circle `<div>`s to begin with. Everytime you click on a mole, your score increases.
    > 
    > If you'd like to spice things up, you can create an increasing difficulty by reducing the timeframe in which the mole appears.
+
+10. The Dates:
+ 
+   > - Find the timezones of :
+   > * Anchorage (USA)
+   > * Reykjavik (Iceland)
+   > * Saint-Petersburg (Russia)
+   > - And display the date and time of these cities along with the time and date of Brussels.
+   >
+   > - Using timestamps, find how many days have passed since the date of your birth. Feeling old, yet?
+   > - Write a function to find how many days have passed since any point in time (after 1970).
+   >
+   > - Using timestamps, find the exact time and date we will be in 80000 hours.
+   > - Write a function to display the time and date for any amount of hours given in the future. Create a number input for the hours and listen for `keyup` events, dynamically display the date in the number of hours given by the input.
 
 
 Enjoy checking what I've done so far! o/
