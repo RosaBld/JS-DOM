@@ -86,5 +86,30 @@ Here are the instructions;
    > - Using timestamps, find the exact time and date we will be in 80000 hours.
    > - Write a function to display the time and date for any amount of hours given in the future. Create a number input for the hours and listen for `keyup` events, dynamically display the date in the number of hours given by the input.
 
+11. Project-Planner:
+
+For this exercice, it's all about a group project. You can come see it on the repo of my fellow [coworker](https://github.com/Pierremarien/project-planner)
+
+As you'll see, it's a simple but fonctional project planner. You can read all about it in the Readme.
+
+You can also check on the deployment page [here](https://pierremarien.github.io/project-planner/).
+
+12. Asynchrone:
+
+	Ex 1:
+ 
+	   > Create a new directory , containing 3 files:
+	   >
+    	   > - index.html
+	   > - script.js
+    	   > - a json file containing an array with a few strings ( learn what's a json file )
+	   >
+	   > Create a `<button>`, when clicked the json's contentn is loaded with a `fetch('your-json-file.json')`, then dynamically generate a `<ul>` list containing each rule in a `<li>`.
+
+	Ex 2:
+
+	   > Make a new page with a text input and a button. When the button is clicked, a fetch query is sent to the agify API with the name entered in the input. When the request is finished display the result in a new div on the page. Keep the the past requests on the page by creating a new div each time you make an API call.
+
+
 
 Enjoy checking what I've done so far! o/
