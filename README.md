@@ -110,6 +110,21 @@ You can also check on the deployment page [here](https://pierremarien.github.io/
 
 	   > Make a new page with a text input and a button. When the button is clicked, a fetch query is sent to the agify API with the name entered in the input. When the request is finished display the result in a new div on the page. Keep the the past requests on the page by creating a new div each time you make an API call.
 
+	Random-Quote:
+	   > Publish a web page that shows a random quote from an available Web Service, from the Quotes serving website: https://thatsthespir.it
+	   > 
+	   > The web service sits at this URL: https://thatsthespir.it/api. It is called the endpoint".
+	   > Steps
 
+    	   > - Send a request to a remote server via javascript using async/await and try/catch.
+    	   > - Treat the answer :
+        	> If the request failed, show an error message to the user.
+        	> If the request succeed, transform a JSON response into Html, injected in the DOM.
+    	   > - Make a button to generate another random quote.
+    	   > - WMake it look good via CSS (inspiration).
+    	   > - Publish it as a GitHub Page
+    	   > When it works, share the link on your startup's discord channel.
+
+		You can check it out [here](https://rosabld.github.io/random-quote-using-async-await/) ! 
 
 Enjoy checking what I've done so far! o/
