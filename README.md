@@ -111,6 +111,9 @@ Ex 2:
    > Make a new page with a text input and a button. When the button is clicked, a fetch query is sent to the agify API with the name entered in the input. When the request is finished display the result in a new div on the page. Keep the the past requests on the page by creating a new div each time you make an API call.
 
 Random-Quote:
+
+Solo Project !
+
    > Publish a web page that shows a random quote from an available Web Service, from the Quotes serving website: https://thatsthespir.it
    > 
    > The web service sits at this URL: https://thatsthespir.it/api. It is called the endpoint".
