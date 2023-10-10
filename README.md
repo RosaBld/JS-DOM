@@ -1,6 +1,6 @@
 # DOM Exercices
 
-An ensemble of exercices on JS DOM, separated in 3 ways. 
+An ensemble of exercices on JS DOM, separated in a multitude of ways. 
 
 Here are the instructions;
 
